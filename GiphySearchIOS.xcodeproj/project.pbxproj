@@ -70,10 +70,10 @@
 				B0C54E28243AB7010058AEEA /* Gif.swift */,
 				B0A5FCF62436B5920061CDEE /* GifNetwork.swift */,
 				B0A5FCF42436AB7B0061CDEE /* GifCell.swift */,
+				B0A5FCF22436A71B0061CDEE /* GifExtension.swift */,
 				B0CB03732433B7190092BE1D /* Main.storyboard */,
 				B0CB03762433B71C0092BE1D /* Assets.xcassets */,
 				B0CB03782433B71C0092BE1D /* LaunchScreen.storyboard */,
-				B0A5FCF22436A71B0061CDEE /* GifExtension.swift */,
 				B0CB037B2433B71C0092BE1D /* Info.plist */,
 			);
 			path = GiphySearchIOS;
