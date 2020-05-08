@@ -41,17 +41,17 @@ class GifNetwork {
      - Parameter searchTerm: The string to search for gifs of
      - Returns: URL of search term & api key
      */
-    func urlBuilder(searchTerm: String) -> URL {
+ func urlBuilder(searchTerm: String) -> URL {
         let apikey = apiKey
         var components = URLComponents()
-            components.scheme = "https"
-            components.host = "api.giphy.com"
-            components.path = "/v1/gifs/search"
-            components.queryItems = [
-                URLQueryItem(name: "api_key", value: apiKey),
-                URLQueryItem(name: "q", value: searchTerm),
-                URLQueryItem(name: "limit", value: "5") //Edit limit to display more gifs
-            ]
+           components.scheme = "https"
+           components.host = "api.giphy.com"
+           components.path = "/v1/gifs/search"
+           components.queryItems = [
+               URLQueryItem(name: "api_key", value: apikey),
+               URLQueryItem(name: "q", value: searchTerm),
+               URLQueryItem(name: "limit", value: "5") // Edit limit to display more gifs
+           ]
         return components.url!
     }
 }
